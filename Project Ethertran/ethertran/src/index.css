@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.alice-carousel__stage-item {
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+	width: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+  }
+
+  .box{
+	background: rgba(13, 0, 70, 0.555);
+  }
+
+  .box1{
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: rgba(39, 16, 141, 0.555);
+  }
+
+
+
+.navbar-bg {
+  background: rgb(0, 0, 0);
+  border-radius: 1px;
+  z-index: 10000;
+  position: sticky;
+  top: 0px;
+  height: 50px;
+}
+
+.navbar-bg1 {
+  background: linear-gradient(-90deg,#130b1218, #0a051433);
+}
+
+
+.Tutorial {
+  background-color: #14044db4;
+  border-radius: 5px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.274);
+  border: 0px solid rgba(0, 0, 0, 0.836);
+}
+
+
+
+.Services {
+  background-color: #14044d56;
+  border-radius: 16px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.61);
+  border: 0px solid rgba(131, 89, 89, 0.74);
+  
+}
+
+.inputholder {
+  border-radius: 10px;
+  box-shadow: 0 2px 50px rgba(48, 19, 126, 0.425);
+  
+}
+
+.text-logo1 {
+	background: linear-gradient(-90deg,#fa0000, #2e00fa);
+	  background-size: 200% 200%;
+	  animation: gradient 5s ease infinite;
+	  height: auto vh;
+	 
+	-webkit-background-clip: border;
+	-webkit-text-fill-color: transparent;
+  }
+  
+  @keyframes gradient {
+	  0% {
+		  background-position: 0% 50%;
+	  }
+	  50% {
+		  background-position: 100% 50%;
+	  }
+	  100% {
+		  background-position: 0% 50%;
+	  }
+  }
+
+  .text-logo2 {
+	background: linear-gradient(-90deg,#fa0000, #2e00fa);
+	  background-size: 200% 200%;
+	  animation: gradient 5s ease infinite;
+	  height: auto vh;
+	  
+	-webkit-background-clip: border;
+	-webkit-fill-color: transparent;
+  }
+
+.text-logo {
+  background: linear-gradient(-90deg,#fa0000, #2e00fa);
+	background-size: 200% 200%;
+	animation: gradient 5s ease infinite;
+	height: auto vh;
+	
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.text-gradient {
+  background-color: #fff;
+  background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(50, 30, 141) 0, transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-glassmorphism1 {
+  background: rgba(134, 134, 132, 0.26);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.377);
+ 
+}
+
+
+
+.background-image {
+	background: linear-gradient(218deg, #1508ad, #220e16, #360303);
+    background-size: 200% 200%;
+
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    -o-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 56%}
+    50%{background-position:100% 45%}
+    100%{background-position:0% 56%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 56%}
+    50%{background-position:100% 45%}
+    100%{background-position:0% 56%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 56%}
+    50%{background-position:100% 45%}
+    100%{background-position:0% 56%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 56%}
+    50%{background-position:100% 45%}
+    100%{background-position:0% 56%}
+}
+
+.form{
+	position: absolute;
+	background: #0a173d;
+	z-index: 10;
+	border-radius: 8px;
+	inset: -10px;
+}
+
+.input-glassmorphism {
+  position: relative;
+  background: rgba(112, 2, 2, 0.199);
+  border-radius: 8px;
+  width: 300px;
+  height: 350px;
+  overflow: hidden;
+
+}
+
+
+
+.input-glassmorphism::before {
+	content: '';
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 390px;
+  	height: 300px;
+	background: linear-gradient(0deg,transparent,#2053e0,#2053e0);	
+	animation: animate 6s linear infinite;
+	transform-origin: bottom right;
+  }
+.input-glassmorphism::after {
+	content: '';
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 400px;
+  	height: 300px;
+	background: linear-gradient(0deg,transparent,#2053e0,#2053e0);	
+	animation: animate 6s linear infinite;
+	transform-origin: bottom right;
+	animation-delay: -3s;
+  }
+@keyframes animate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+
+.hold-bg {
+	background: linear-gradient(-45deg,#550000, #010049);
+	background-size: 200% 200%;
+	animation: gradient 5s ease infinite;
+	height: auto vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.card {
+	background: linear-gradient(-90deg,#14044d, #2053e0, #6658b9);
+	background-size: 300% 300%;
+	animation: gradient 10s ease infinite;
+	height: auto vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} 
+
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
